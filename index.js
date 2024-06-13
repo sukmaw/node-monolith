@@ -10,7 +10,7 @@ app.use(express.urlencoded({extended: false}))
 
 app.use('/', require('./src/routers'))
 
-const PORT = 8888
+const PORT = 3000
 app.listen(PORT, ()=>{
     console.log(`App listen on port ${PORT}`)
 });
