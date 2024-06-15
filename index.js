@@ -12,5 +12,6 @@ app.use('/', require('./src/routers'))
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, ()=>{
+    console.log('Server is running try auto deployment')
     console.log(`App listen on port ${PORT}`)
 });
